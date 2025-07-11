@@ -1,28 +1,28 @@
 [
   {
     "id": 1,
-    "name": "BMW M3",
+    "name": "2024 BMW M3",
     "price": 1900000,
     "image": "bmw.jpg",
     "description": "The BMW M3 is a high-performance sports sedan with powerful acceleration and sharp handling."
   },
   {
     "id": 2,
-    "name": "Audi RS3",
+    "name": " 2020 Audi RS3",
     "price": 720000,
     "image": "audi.jpg",
     "description": "The Audi RS5 combines luxury and performance with a sleek coupe design and Quattro AWD."
   },
   {
     "id": 3,
-    "name": "Mercedes-AMG C63",
-    "price": 80000,
+    "name": "2017 Mercedes-AMG C63",
+    "price": 800000,
     "image": "AMG C63.jpeg",
     "description": "The AMG C63 is a luxury powerhouse with a twin-turbo V8 and race-inspired features."
   },
   {
     "id": 4,
-    "name": "Volkswagen Golf R",
+    "name": "2019 Volkswagen Golf R",
     "price": 45000,
     "image": "golf.jpg",
     "description": "The Golf R is a hot hatch that offers practicality and performance in one compact package."
@@ -30,41 +30,41 @@
   {
     "id": 5,
     "name": "2023 Ford Ranger Raptor Ecoboost",
-    "price": 95000,
+    "price": 850000,
     "image": "raptor.jpeg",
-    "description": "The Ford Ranger Raptor 3.0 V6 Bi-Turbo 4x4 D/C/A/T- Unleash the Beast."
+    "description": "The Ford Ranger Raptor 2.0 Bi-Turbo 4x4 D/C/A/T- Unleash the Beast."
   },
   {
     "id": 6,
-    "name": "BMW 340i",
-    "price": 90000,
+    "name": "2016 BMW 340i",
+    "price": 540000,
     "image": "340i.jpeg",
     "description": "The BMW 340i is a turbocharged 3.0 straight six with 320hp."
   },
   {
     "id": 7,
-    "name": "Toyota Supra",
-    "price": 90000,
+    "name": "2019 Toyota Supra",
+    "price": 700000,
     "image": "supra.jpeg",
     "description": "The Toyota Supra GR-Sports is a high performance sports coupe that blends cutting-edge engineering with head-turning design."
   },
   {
     "id": 8,
-    "name": "Nissan GT-R",
+    "name": "2017 Nissan GT-R",
     "price": 1200000,
     "image": "GT-R.jpeg",
     "description": "A high-performance sports car known for its powerful engine, and thrilling driving experience."
   },
   {
     "id": 9,
-    "name": "Porsche 992 GT3 RS",
+    "name": "2024 Porsche 992 GT3 RS",
     "price": 6500000,
     "image": "gt3 rs.jpeg",
     "description": "A high performance sports car, the most track-focused RS model in the 911 lineup, know for its radical aerodynamics, extensive lightweight construction, and motorsport-derived features."
   },
   {
     "id": 10,
-    "name": "Mercedes Benz-AMG V300dd",
+    "name": "2022 Mercedes Benz-AMG V300d",
     "price": 2000000,
     "image": "V300d.jpeg",
     "description": "A luxurious and powerful people-mover, know for its spacious, advanced safety features, and high-end materials."

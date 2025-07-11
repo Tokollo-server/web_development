@@ -1,8 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
-import carData from "../data/products.json";
+import products from "../data/products.json";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import carData from "../data/products.json";
 
 const StorePage = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,7 @@ const StorePage = () => {
     dispatch(addToCart(product));
   };
 
-  const getImage = (filename) => require(`../assets/${filename}`);
+  //const getImage = (filename) => require(`../assets/${filename}`);
 
   return (
     <Container className="mt-4">
@@ -22,7 +23,7 @@ const StorePage = () => {
             <Card>
               <Card.Img
                 variant="top"
-                src={getImage(car.image)}
+                src={`/images/${car.image}`}
                 alt={car.name}
                 style={{ height: "200px", objectFit: "cover" }}
               />
