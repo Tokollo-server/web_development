@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
 const Header = () => {
-  const username = useSelector((state) => state.user?.username);
+  const username = useSelector((state) => state.user.username);
 
   return (
     <Navbar bg="dark" variant="dark" expand="lg">

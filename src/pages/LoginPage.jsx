@@ -1,19 +1,25 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { setUsername } from "../redux/userSlice";
 import { useNavigate } from "react-router-dom";
+import { setUsername } from "../redux/userSlice";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 
 const LoginPage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [username, setUsername] = useState("");
 
+  // Local state to store the entered username
+  const [usernameInput, setUsernameInput] = useState("");
+
+  // Handle form submission
   const handleLogin = (e) => {
+    // Prevent page refresh on form submit
     e.preventDefault();
-    if (username.trim()) {
-      dispatch(setUsername(username));
-      navigate("/store");
+
+    if (usernameInput.trim()) {
+      // Dispatch to Redux store
+      dispatch(setUsername(usernameInput));
+      navigate("/");
     }
   };
 
@@ -27,8 +33,9 @@ const LoginPage = () => {
               <Form.Label>Username</Form.Label>
               <Form.Control
                 type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
+                placeholder="Enter your username"
+                value={usernameInput}
+                onChange={(e) => setUsernameInput(e.target.value)}
                 required
               />
             </Form.Group>

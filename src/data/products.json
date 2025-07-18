@@ -3,70 +3,90 @@
     "id": 1,
     "name": "2024 BMW M3",
     "price": 1900000,
-    "image": "bmw.jpg",
-    "description": "The BMW M3 is a high-performance sports sedan with powerful acceleration and sharp handling."
+    "image": "/images/bmw m3.jpeg",
+    "description": "The BMW M3 is a high-performance sports sedan with powerful acceleration and sharp handling.",
+    "km": 33500,
+    "transmission": "Automatic"
   },
   {
     "id": 2,
     "name": " 2020 Audi RS3",
     "price": 720000,
-    "image": "audi.jpg",
-    "description": "The Audi RS5 combines luxury and performance with a sleek coupe design and Quattro AWD."
+    "image": "/images/rs3.jpeg",
+    "description": "The Audi RS5 combines luxury and performance with a sleek coupe design and Quattro AWD.",
+    "km": 64570,
+    "transmission": "Automatic"
   },
   {
     "id": 3,
     "name": "2017 Mercedes-AMG C63",
     "price": 800000,
-    "image": "AMG C63.jpeg",
-    "description": "The AMG C63 is a luxury powerhouse with a twin-turbo V8 and race-inspired features."
+    "image": "/images/AMG C63.jpeg",
+    "description": "The AMG C63 is a luxury powerhouse with a twin-turbo V8 and race-inspired features.",
+    "km": 101000,
+    "transmission": "Automatic"
   },
   {
     "id": 4,
     "name": "2019 Volkswagen Golf R",
     "price": 45000,
-    "image": "golf.jpg",
-    "description": "The Golf R is a hot hatch that offers practicality and performance in one compact package."
+    "image": "/images/golf 8r.jpeg",
+    "description": "The Golf R is a hot hatch that offers practicality and performance in one compact package.",
+    "km": 21200,
+    "transmission": "Automatic"
   },
   {
     "id": 5,
-    "name": "2023 Ford Ranger Raptor Ecoboost",
+    "name": "2021 Ford Ranger Raptor Ecoboost",
     "price": 850000,
-    "image": "raptor.jpeg",
-    "description": "The Ford Ranger Raptor 2.0 Bi-Turbo 4x4 D/C/A/T- Unleash the Beast."
+    "image": "/images/raptor.jpeg",
+    "description": "The Ford Ranger Raptor 2.0 Bi-Turbo 4x4 D/C/A/T- Unleash the Beast.",
+    "km": 45000,
+    "transmission": "Automatic"
   },
   {
     "id": 6,
     "name": "2016 BMW 340i",
     "price": 540000,
-    "image": "340i.jpeg",
-    "description": "The BMW 340i is a turbocharged 3.0 straight six with 320hp."
+    "image": "/images/340i.jpeg",
+    "description": "The BMW 340i is a turbocharged 3.0 straight six with 320hp.",
+    "km": 88000,
+    "transmission": "Manual"
   },
   {
     "id": 7,
     "name": "2019 Toyota Supra",
     "price": 700000,
-    "image": "supra.jpeg",
-    "description": "The Toyota Supra GR-Sports is a high performance sports coupe that blends cutting-edge engineering with head-turning design."
+    "image": "/images/supra.jpeg",
+    "description": "The Toyota Supra GR-Sports is a high performance sports coupe that blends cutting-edge engineering with head-turning design.",
+    "km": 75250,
+    "transmission": "Automatic"
   },
   {
     "id": 8,
     "name": "2017 Nissan GT-R",
     "price": 1200000,
-    "image": "GT-R.jpeg",
-    "description": "A high-performance sports car known for its powerful engine, and thrilling driving experience."
+    "image": "/images/gtr.jpeg",
+    "description": "A high-performance sports car known for its powerful engine, and thrilling driving experience.",
+    "km": 50000,
+    "transmission": "Automatic"
   },
   {
     "id": 9,
     "name": "2024 Porsche 992 GT3 RS",
     "price": 6500000,
-    "image": "gt3 rs.jpeg",
-    "description": "A high performance sports car, the most track-focused RS model in the 911 lineup, know for its radical aerodynamics, extensive lightweight construction, and motorsport-derived features."
+    "image": "/images/gt3 rs.jpeg",
+    "description": "A high performance sports car, the most track-focused RS model in the 911 lineup, know for its radical aerodynamics, extensive lightweight construction, and motorsport-derived features.",
+    "km": 1100,
+    "transmission": "Manual"
   },
   {
     "id": 10,
     "name": "2022 Mercedes Benz-AMG V300d",
     "price": 2000000,
-    "image": "V300d.jpeg",
-    "description": "A luxurious and powerful people-mover, know for its spacious, advanced safety features, and high-end materials."
+    "image": "/images/V300d.jpeg",
+    "description": "A luxurious and powerful people-mover, know for its spacious, advanced safety features, and high-end materials.",
+    "km": 115000,
+    "transmission": "Automatic"
   }
 ]

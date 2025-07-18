@@ -53,8 +53,10 @@ const CartPage = () => {
           <Form.Label>Select Shipping Method:</Form.Label>
           <Form.Select value={shipping || ""} onChange={handleShippingChange}>
             <option value="">Choose...</option>
-            <option value="Standard">Standard - </option>
-            <option value="Express">Express - </option>
+            <option value="Intercity Auto Mover">
+              Intercity Auto Mover -{" "}
+            </option>
+            <option value="Wise Auto">Wise Auto - </option>
           </Form.Select>
         </Form.Group>
 

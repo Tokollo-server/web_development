@@ -5,6 +5,7 @@ import backgroundImage from "../assets/landing-background.png";
 
 const LandingPage = () => {
   return (
+    // Main hero section with background image and centered content
     <div
       className="hero-section"
       style={{ backgroundImage: `url(${backgroundImage})` }}
