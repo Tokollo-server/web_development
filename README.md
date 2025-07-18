@@ -1,29 +1,31 @@
-# Getting Started with Create React App
+# Autohaus React Web Store 🚗
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Autohaus is a web-based car store built with React. It allows users to browse cars, search by model, filter by transmission type, and view detailed information for each vehicle. The app simulates an e-commerce experience with cart functionality.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Car search by name
+- Filter by transmission (Automatic / Manual)
+- View car details with image previews
+- Add cars to cart
+- React + Redux state management
+- Bootstrap for responsive UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisite
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **git repository**
 
+<<<<<<< HEAD
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
@@ -77,3 +79,9 @@ This is my new React app
 099bc40f6562a1a5ebf90ff9eb4ba3917d1ea3b9
 =======
 >>>>>>> a107e82 (Initial commit)
+=======
+```bash
+git clone https://github.com/tokollo-server/autohaus-store.git
+cd autohaus-store
+```
+>>>>>>> 753d5fb (Initial commit)

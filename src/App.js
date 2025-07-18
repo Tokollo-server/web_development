@@ -13,6 +13,7 @@ import { Container, Navbar } from "react-bootstrap";
 
 function App() {
   return (
+    // Use the Redux provider to give access to the Redux store
     <Provider store={store}>
       <Router>
         <Header />

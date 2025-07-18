@@ -1,10 +1,10 @@
 .hero-section {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   align-items: center;
-  color: white;
+  color: rgb(238, 21, 21);
   text-shadow: 2px 2px 4px #000;
   text-align: center;
 }
